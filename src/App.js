@@ -33,12 +33,7 @@ function App() {
       children: [
         {
           index: true,
-          element: (
-            <ProtectedRoute>
-              {" "}
-              <Home></Home>
-            </ProtectedRoute>
-          ),
+          element: <Home></Home>,
         },
         {
           path: "categories",
