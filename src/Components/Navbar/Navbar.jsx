@@ -29,9 +29,9 @@ export default function Navbar() {
     if (res?.response?.data?.message) setNumOfCartItems(0);
   };
   useEffect(() => {
-    if (!isLogin) {
-      return;
-    }
+    // if (!isLogin) {
+    //   return;
+    // }
     getFromTheWhitelist();
     getFromTheCart();
   }, [isLogin]);
