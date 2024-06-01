@@ -54,12 +54,7 @@ function App() {
         },
         {
           path: "product",
-          element: (
-            <ProtectedRoute>
-              {" "}
-              <Products></Products>
-            </ProtectedRoute>
-          ),
+          element: <Products></Products>,
         },
         {
           path: "cart",
@@ -81,12 +76,7 @@ function App() {
 
         {
           path: "productdetails/:id",
-          element: (
-            <ProtectedRoute>
-              {" "}
-              <ProductDetails></ProductDetails>
-            </ProtectedRoute>
-          ),
+          element: <ProductDetails></ProductDetails>,
         },
         {
           path: "whitlist",
