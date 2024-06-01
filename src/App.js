@@ -55,10 +55,8 @@ function App() {
         {
           path: "product",
           element: (
-            <ProtectedRoute>
               {" "}
               <Products></Products>
-            </ProtectedRoute>
           ),
         },
         {
