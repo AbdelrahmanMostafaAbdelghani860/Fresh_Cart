@@ -54,7 +54,12 @@ function App() {
         },
         {
           path: "product",
-          element: <Products></Products>,
+          element: (
+            <ProtectedRoute>
+              {" "}
+              <Products></Products>
+            </ProtectedRoute>
+          ),
         },
         {
           path: "cart",
